@@ -54,7 +54,7 @@ public class Main
     System.out.println("Всего работников в компании "+employes+" человек");
     employes=employes+94;
     allHours=employes*8;
-    System.out.println("Если в компании работает "+employes+" человек,то всего "+allHours+" часов работы может быть поделено между сотрудниками.");
+    System.out.println("Если в компании работает  "+employes+" человек,то всего "+allHours+" часов работы может быть поделено между сотрудниками.");
 
 }
 }
