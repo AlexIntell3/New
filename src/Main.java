@@ -92,6 +92,20 @@ public class Main
     System.out.println("Если спортсмен будет терять среднее значение гр.между двумя вариантами в день ему потребуется "+totalAvgDayWeightLoss+" дней.");
 
     System.out.println("Задание 8");
+    float mashaOldSalary=67_760;
+    float denisOldSalary=83_690;
+    float kristinaOldSalary=76_230;
+    float increaseCoeff=1.1F;
+    float newMashaSalary=mashaOldSalary*increaseCoeff;
+    float newDenisSalary=denisOldSalary*increaseCoeff;
+    float newKristinaSalary=kristinaOldSalary*increaseCoeff;
+    float annualDiffMashaSalary=12*(newMashaSalary-mashaOldSalary);
+    float annualDiffDenisSalary=12*(newDenisSalary-denisOldSalary);
+    float annualDiffKristinaSalary=12*(newKristinaSalary-kristinaOldSalary);
+    System.out.println("Маша теперь получает "+newMashaSalary+" рублей.Годовой доход вырос на "+annualDiffMashaSalary+" рублей");
+    System.out.println("Маша теперь получает "+newDenisSalary+" рублей.Годовой доход вырос на "+annualDiffDenisSalary+" рублей");
+    System.out.println("Маша теперь получает "+newKristinaSalary+" рублей.Годовой доход вырос на "+annualDiffKristinaSalary+" рублей");
+
 
 
 }
