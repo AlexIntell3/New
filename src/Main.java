@@ -102,9 +102,9 @@ public class Main
     float annualDiffMashaSalary=12*(newMashaSalary-mashaOldSalary);
     float annualDiffDenisSalary=12*(newDenisSalary-denisOldSalary);
     float annualDiffKristinaSalary=12*(newKristinaSalary-kristinaOldSalary);
-    System.out.println("Маша теперь получает "+newMashaSalary+" рублей.Годовой доход вырос на "+annualDiffMashaSalary+" рублей");
-    System.out.println("Маша теперь получает "+newDenisSalary+" рублей.Годовой доход вырос на "+annualDiffDenisSalary+" рублей");
-    System.out.println("Маша теперь получает "+newKristinaSalary+" рублей.Годовой доход вырос на "+annualDiffKristinaSalary+" рублей");
+    System.out.println("Маша теперь получает "+newMashaSalary+" рублей. Годовой доход вырос на "+annualDiffMashaSalary+" рублей");
+    System.out.println("Маша теперь получает "+newDenisSalary+" рублей. Годовой доход вырос на "+annualDiffDenisSalary+" рублей");
+    System.out.println("Маша теперь получает "+newKristinaSalary+" рублей. Годовой доход вырос на "+annualDiffKristinaSalary+" рублей");
 
 
 
