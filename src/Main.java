@@ -78,5 +78,21 @@ public class Main
     System.out.println("Завтрак в гр.: "+totalBreakfastGr);
     System.out.println("Завтрак в кг.: "+totalBreakfastKg);
 
+    System.out.println("Задание 7");
+    int weightWantLossKg=7;
+    int weightWantLossGr=weightWantLossKg*1000;
+    int oneDayWeightLossGrWay1=250;
+    int oneDayWeightLossGrWay2=500;
+    int avgDayWeightLossGr=(oneDayWeightLossGrWay1+oneDayWeightLossGrWay2)/2;
+    int totalDayWeightLossWay1=weightWantLossGr/oneDayWeightLossGrWay1;
+    int totalDayWeightLossWay2=weightWantLossGr/oneDayWeightLossGrWay2;
+    int totalAvgDayWeightLoss=weightWantLossGr/avgDayWeightLossGr;
+    System.out.println("Если спортсмен будет терять по 250 гр. в день ему потребуется "+totalDayWeightLossWay1+" дней");
+    System.out.println("Если спортсмен будет терять по 500 гр. в день ему потребуется "+totalDayWeightLossWay2+" дней");
+    System.out.println("Если спортсмен будет терять среднее значение гр.между двумя вариантами в день ему потребуется "+totalAvgDayWeightLoss+" дней.");
+
+    System.out.println("Задание 8");
+
+
 }
 }
