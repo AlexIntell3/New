@@ -1,60 +1,82 @@
 public class Main
 { public static void main(String[] args) {
-    var dog=8.0;
-    var cat=3.6;
-    var paper=763789;
-    System.out.println(dog);
-    System.out.println(cat);
-    System.out.println(paper);
+    System.out.println("Задание 1");
+    int a=1000;
+    byte b=(byte)20;
+    short c=(short)500;
+    long d=10_000L;
+    float e=5.1f;
+    double f=6.00000009d;
+    System.out.println(a);
+    System.out.println(b);
+    System.out.println(c);
+    System.out.println(d);
+    System.out.println(e);
+    System.out.println(f);
 
-    dog=dog+4;
-    cat=cat+4;
-    paper=763789+4;
-    System.out.println(dog);
-    System.out.println(cat);
-    System.out.println(paper);
+    System.out.println("Задание 2");
+    double h=27.12;
+    long i=987_678_965_549L;
+    float j=2.786f;
+    short k=(short) 569;
+    byte l=(byte)-159;
+    int m=(int)27897;
+    byte n=(byte)67;
+    System.out.println(h);
+    System.out.println(i);
+    System.out.println(j);
+    System.out.println(k);
+    System.out.println(l);
+    System.out.println(m);
+    System.out.println(n);
 
-    dog=dog-3.5;
-    cat=cat-1.6;
-    paper=paper-7639;
-    System.out.println(dog);
-    System.out.println(cat);
-    System.out.println(paper);
+    System.out.println("Задание 3");
+   int class1pupil=23;
+   int class2pupil=27;
+   int class3pupil=30;
+   int totalShits=480;
+   int totalPupil=class1pupil+class2pupil+class3pupil;
+    System.out.println("На каждого ученика рассчитано "+totalShits/totalPupil+" листов бумаги");
 
-    var friend=19;
-    System.out.println(friend);
-    friend=friend+2;
-    System.out.println(friend);
-    friend=friend+7;
-    System.out.println(friend);
 
-    var frog=3.5;
-    System.out.println(frog);
-    frog=frog*10;
-    System.out.println(frog);
-    frog=frog/3.5;
-    System.out.println(frog);
-    frog=frog+4;
-    System.out.println(frog);
+    System.out.println("Задание 4");
+    int productivity=16/2;
+    int bottles20=20*productivity;
+    int bottlesDay=24*60*productivity;
+    int bottles3Day=bottlesDay*3*productivity;
+    int bottlesMonth=bottlesDay*30*productivity;
+    System.out.println("За 20 минут машина произвела "+bottles20+" штук бутылок");
+    System.out.println("За сутки машина произвела "+bottlesDay+" штук бутылок");
+    System.out.println("За 3 дня машина произвела "+bottles3Day+" штук бутылок");
+    System.out.println("За 1 месяц машина произвела "+bottlesMonth+" штук бутылок");
 
-    var boxer1=78.2;
-    var boxer2=82.7;
-    System.out.println(boxer1+boxer2);
-    var diffVeight=boxer2-boxer1;
-    System.out.println(diffVeight);
+    System.out.println("Задание 5");
+    int totalPaint=120;
+    int whitePaintToOneClass=2;
+    int brownPaintToOneClass=4;
+    int totalClasses=totalPaint/(whitePaintToOneClass+brownPaintToOneClass);
+    int totalWhitePint=totalClasses*whitePaintToOneClass;
+    int totalBrownPaint=totalClasses*brownPaintToOneClass;
+    System.out.println("В школе где "+totalClasses+" классов,нужно "+totalWhitePint+" банок белой краски и "+totalBrownPaint+" банок коричневаой краски.");
 
-    var diff1Way=boxer2-boxer1;
-    System.out.println(diff1Way);
-    var diff2Way=boxer2%boxer1;
-    System.out.println(diff2Way);
+    System.out.println("Задание 6");
+    //Бананы — 5 штук (1 банан — 80 грамм).
+    //Молоко — 200 мл (100 мл = 105 грамм).
+    // Мороженое-пломбир — 2 брикета по 100 грамм.
+    // Яйца сырые – 4 яйца (1 яйцо — 70 грамм).
 
-    var allHours=640;
-    var dayHours=8;
-    var employes=allHours/dayHours;
-    System.out.println("Всего работников в компании "+employes+" человек");
-    employes=employes+94;
-    allHours=employes*8;
-    System.out.println("Если в компании работает  "+employes+" человек,то всего "+allHours+" часов работы может быть поделено между сотрудниками.");
+    int bananasQuantity=5;
+    int oneBananasWeightGr=80;
+    int milkMl=200/100;
+    int oneMilkGr=105;
+    int iceCreamQuantity=2;
+    int oneIceCreamGr=100;
+    int egsQuantity=4;
+    int oneEggWeight=70;
+    int totalBreakfastGr=((bananasQuantity*oneBananasWeightGr)+(milkMl*oneMilkGr)+(iceCreamQuantity*oneIceCreamGr)+(egsQuantity*oneEggWeight));
+    float totalBreakfastKg=totalBreakfastGr/1000F;
+    System.out.println("Завтрак в гр.: "+totalBreakfastGr);
+    System.out.println("Завтрак в кг.: "+totalBreakfastKg);
 
 }
 }
